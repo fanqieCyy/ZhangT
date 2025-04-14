@@ -529,7 +529,7 @@ terrain_set_0/terrain_2/color = Color(0.46875, 0.5, 0.25, 1)
 sources/2 = SubResource("TileSetAtlasSource_fj7yv")
 
 [node name="World" type="Node2D"]
-position = Vector2(335, 35)
+position = Vector2(387, 87)
 script = ExtResource("1_tlwt5")
 
 [node name="TileMap" type="TileMap" parent="."]
