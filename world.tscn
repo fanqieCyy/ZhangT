@@ -721,3 +721,5 @@ position = Vector2(0, -188)
 texture = ExtResource("1_f3sb7")
 region_enabled = true
 region_rect = Rect2(208, 288, 128, 104)
+
+[node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="."]
