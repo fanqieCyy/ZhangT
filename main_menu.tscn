@@ -55,9 +55,10 @@ layout_mode = 2
 theme_override_font_sizes/font_size = 10
 text = "Back"
 
-[node name="Full__screen2" type="Button" parent="CenterContainer/seteing_menu"]
+[node name="Fullscreen" type="Button" parent="CenterContainer/seteing_menu"]
 layout_mode = 2
 theme_override_font_sizes/font_size = 10
+toggle_mode = true
 text = "Fullscreen"
 
 [node name="mainslider" type="HSlider" parent="CenterContainer/seteing_menu"]
@@ -139,11 +140,11 @@ text = "Back"
 [connection signal="pressed" from="CenterContainer/MAIN_MENU/credits" to="." method="_on_credits_pressed"]
 [connection signal="pressed" from="CenterContainer/MAIN_MENU/quit" to="." method="_on_quit_pressed"]
 [connection signal="pressed" from="CenterContainer/seteing_menu/back" to="." method="_on_back_pressed"]
-[connection signal="toggled" from="CenterContainer/seteing_menu/Full__screen2" to="." method="_on_full__screen_2_toggled"]
+[connection signal="toggled" from="CenterContainer/seteing_menu/Fullscreen" to="." method="_on_fullscreen_toggled"]
 [connection signal="value_changed" from="CenterContainer/seteing_menu/mainslider" to="." method="_on_voice_slider_value_changed"]
 [connection signal="value_changed" from="CenterContainer/seteing_menu/mainslider" to="." method="_on_mainslider_value_changed"]
 [connection signal="value_changed" from="CenterContainer/seteing_menu/musicslider" to="." method="_on_voice_slider_2_value_changed"]
 [connection signal="value_changed" from="CenterContainer/seteing_menu/musicslider" to="." method="_on_musicslider_value_changed"]
-[connection signal="value_changed" from="CenterContainer/seteing_menu/sfxslider" to="." method="_on_sfxslider_value_changed"]
 [connection signal="value_changed" from="CenterContainer/seteing_menu/sfxslider" to="." method="_on_voice_slider_3_value_changed"]
+[connection signal="value_changed" from="CenterContainer/seteing_menu/sfxslider" to="." method="_on_sfxslider_value_changed"]
 [connection signal="pressed" from="CenterContainer/credits_menu/back" to="." method="_on_back_pressed"]

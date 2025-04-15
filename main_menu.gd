@@ -23,12 +23,13 @@ func _on_back_pressed() -> void:
 	$CenterContainer/MAIN_MENU.visible=true
 	$CenterContainer/seteing_menu.visible=false
 	$CenterContainer/credits_menu.visible=false
+	
 
-func _on_full__screen_2_toggled(toggled_on: bool) -> void:
+func _on_fullscreen_toggled(toggled_on: bool) -> void:
 	if toggled_on:
 		DisplayServer.window_set_mode(DisplayServer.WINDOW_MODE_EXCLUSIVE_FULLSCREEN)
 	else:
-		DisplayServer.window_set_mode(DisplayServer.WINDOW_MODE_MINIMIZED)
+		DisplayServer.window_set_mode(DisplayServer.WINDOW_MODE_WINDOWED)
 
 
 
