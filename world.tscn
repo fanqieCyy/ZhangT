@@ -529,7 +529,7 @@ terrain_set_0/terrain_2/color = Color(0.46875, 0.5, 0.25, 1)
 sources/2 = SubResource("TileSetAtlasSource_fj7yv")
 
 [node name="World" type="Node2D"]
-position = Vector2(335, 35)
+position = Vector2(387, 87)
 script = ExtResource("1_tlwt5")
 
 [node name="TileMap" type="TileMap" parent="."]
@@ -721,3 +721,5 @@ position = Vector2(0, -188)
 texture = ExtResource("1_f3sb7")
 region_enabled = true
 region_rect = Rect2(208, 288, 128, 104)
+
+[node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="."]
